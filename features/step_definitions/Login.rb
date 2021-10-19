@@ -1,12 +1,15 @@
 Dado('que eu esteja na pagina de login do Qa.Coders') do
   login.load
-  pry
+  login.click_button_login
+  
 end
 
 Quando('informo os dados de acesso') do
-  pending # Write code here that turns the phrase above into concrete actions
+  login.login_user
+
 end
 
 Então('sou direcionado para a pagina {string}') do |string|
-  pending # Write code here that turns the phrase above into concrete actions
+  login.click_button_enter
+  
 end
