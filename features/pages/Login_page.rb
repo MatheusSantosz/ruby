@@ -1,10 +1,10 @@
 class Login < SitePrism::Page
     set_url '/'
     element :welcome, 'a[class="welcome"]'
-    element :btn_login, 'li[style=float:right]'
+    element :btn_login, 'li[style="float:right"]'
     element :ipt_email, 'input[id="authEmail"]'
     element :ipt_pass, 'input[id="authPass"]'
-    element :btn_entrar, 'button[class="btn btn-primary btn block btn-flat"'
+    element :btn_entrar, 'button[class="btn btn-primary btn-block btn-flat ng-hide"]'
   
     def click_button_login
       btn_login.click
