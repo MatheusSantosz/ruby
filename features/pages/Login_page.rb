@@ -22,7 +22,10 @@ class Login < SitePrism::Page
     
     
     def validate_page
-      if welcome.text.eql?("Seja bem vindo ao Qa.Coders") != true
+     # text = "Seja bem vindo ao Qa.Coders"
+      welcome1.find('[class="welcome"]').text
+
+      if welcome1.text.eql?("Seja bem vindo ao Qa.Coders") != true
           raise "Expected element: Seja bem vindo ao Qa.Coders, but returned: #{welcome.text}"
 
       end
