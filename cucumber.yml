@@ -1,8 +1,8 @@
-default: -p pretty --publish-quiet -p html -p homolog 
+default: -p pretty --publish-quiet -p html -p producao 
 
 pretty: --format pretty 
 
 homolog: ENVIRONMENT=homolog 
-producao: ENVIRONMENT=producao 
-
+producao: ENVIRONMENT=producao
+desabled_report: CUCUMBER_PUBLISH_ENABLED=true
 html: --format html --out=report/relatorio.html

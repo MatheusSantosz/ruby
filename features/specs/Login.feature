@@ -5,7 +5,7 @@ Funcionalidade: Login
 -Quero que seja validado a login de usuario
 -Para que o usuario seja autenticado com sucesso
 
-@loginSucesso
+@loginSucessoo
 Cenario: Login com sucesso
 
 Dado que eu esteja na pagina de login do Qa.Coders
