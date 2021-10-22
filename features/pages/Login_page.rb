@@ -13,7 +13,7 @@ class Login < SitePrism::Page
 
   def login_user
       
-      ipt_email.set "bruno_bas@outlook.com"
+      ipt_email.set "matheus.santos.ciencia@gmail.com"
       ipt_pass.set "xxxxxxxxx"
   end
 
