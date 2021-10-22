@@ -8,8 +8,8 @@ Dado('que eu esteja na pagina de cadastro de {string} do Qa.Coders') do |string|
   
 
 def user_register
-    ipt_name.set "Mario Magaulo"
-    ipt_email.set "magaulo@gmail.com.br"
+    ipt_name.set "Matheus Santos"
+    ipt_email.set "italomatheus@gmail.com.br"
     ipt_pass.set "P@r4l3l3lp1p3d0"
     ipt_passConfirm.set "P@r4l3l3lp1p3d0"
 
