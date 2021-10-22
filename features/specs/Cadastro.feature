@@ -11,4 +11,5 @@ Cenario: Cadastro com sucesso
 Dado que eu esteja na pagina de cadastro de "Cadastro de usuario" do Qa.Coders
 Quando preencho o formulario de "Cadastro de usuario"
 E clico no botão "Salvar"
-Então sou direcionado para a pagina "Home" Logada
+Entao sou direcionado para a pagina "Home" Logada
+
